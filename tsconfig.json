@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext", "dom", "dom.iterable"], //allow all the browser APIs if you're writing front-end code
+    "strict": true, // enables all strict type checking options.
+    "skipLibCheck": true, // skip type checking of all declaration files (*.d.ts)
+    "verbatimModuleSyntax": true, // true, simplifies some weirdness with importing and exporting types, basically it forces you to import and export types using the import type syntax.
+    "esModuleInterop": true, // allows you to use import syntax with CommonJS modules.
+    "moduleDetection": "force", // consider everything to be a module
+    "noUncheckedIndexedAccess": true, //  If true, adds undefined to the type of any indexed access, which can prevent some runtime errors.
+    "target": "esnext"
+  }
+}
